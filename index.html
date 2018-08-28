@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title id="page-title">Swift Technical Documentation Page</title>
+  <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+<body>
+  <main id="main-doc">
+    <section id="introduction" class=main-section>
+    <header><h1>Introduction</h1></header>
+    <p><code>func introduceSwift()</code><br>
+    Swift is a powerful and intuitive
+    programming language for macOS, iOS,watchOS and tvOS. Writing Swift code
+    is interactive and fun, the syntax is concise yet expressive, and Swift
+    includes modern features developers love. Swift code is safe by design,
+    yet also produces software that runs lightning-fast.</p>
+    </section>
+    <section  id="learn_swift_on_ipad" class=main-section>
+    <header><h1>Learn Swift on iPad</h1></header>
+    <p><code>let Playgrounds : bool = true</code><br>
+      In Swift Playgrounds you create small programs called “playgrounds”
+      that instantly show the results of the code that you write. A single
+      line of code can make amazing things happen. </p>
+    <p>
+      Interactive lessons teach
+      key coding concepts, and additional challenges and templates encourage
+      you to explore code in exciting new ways and to create something
+      completely unique. There are even playgrounds that use Bluetooth to
+      control robots, drones, and other hardware accessories. It’s easy to
+      share your creations with friends, or record and post videos of your
+      playgrounds in action.</p>
+    </section>
+    <section id="open_source" class=main-section>
+    <header><h1>Open Source</h1></header>
+    <p><code>opensource ? happy : sad </code><br>
+      Swift 4 was developed in the open at Swift.org, with source code,
+      a bug tracker, mailing lists, and regular development builds available
+      for everyone. This broad community of developers, both inside Apple as
+      well as hundreds of outside contributors, work together to make Swift
+      even more amazing. </p>
+      <p>Swift already supports all Apple platforms as well
+      as Linux, with community members actively working to port to even more
+      platforms. We’re excited to see more ways in which Swift makes software
+      safer and faster, while also making programming more fun.</p>
+    </section>
+    <section id="source_compatibility_modes" class=main-section>
+    <header><h1>Source Compatibility Modes</h1></header>
+    <p><code>@interface CompatibleObject : NSObject </code><br>
+      Swift 3 set up the language
+      for source-level stability and now Swift 4
+      delivers source compatibility as a feature moving forward. With Swift 4,
+      you don’t have to modify any of your code to use the new version of the
+      compiler. </p>
+    <p>Instead you can start using the new Swift 4 compiler and
+      migrate at your own pace, taking advantage of new Swift 4 features,
+      one module at a time.
+
+      You can use the new Swift 4 compiler with three different modes:
+        <ul>
+          <li>Swift 3 mode is the default for existing code and will build source
+          code that built with the Swift 3 compiler.</li>
+          <li>Swift 4 mode enables you to use new features and performance
+          optimizations of Swift 4, some of which may require migration,
+          making it easier to migrate than the previous transition from
+          Swift 2.2 to Swift 3.</li>
+          <li>Mixed mode allows you to take advantage of interoperability between
+          binaries built with the same compiler. This helps developers who have
+          projects that mix packages written with Swift 3 with packages written
+          with Swift 4, as long as all packages are built using the Swift 4
+          compiler. This allows developers to gradually migrate specific
+          portions of their code to Swift 4 over time.</li>
+          </ul>
+      </p>
+    </section>
+    <section id="new_features_in_swift_4" class=main-section>
+      <header><h1>New Features in Swift 4</h1></header>
+      <p><code>addObserver(_:selector:new:object:)  </code><br>
+        <ul>
+          <li>Faster, easier to use Strings that retain Unicode correctness and add support for creating, using and managing substrings.</li>
+          <li>Smart key paths for type-safe, efficient, extensible key value coding for Swift types.</li>
+          <li>Enhancements to creating and manipulating Dictionary and Set types.</li>
+          <li>Extends support of archival and serialization to struct and enum types
+              and enables type-safety for serializing to external formats such as JSON
+              and plist.
+          </li>
+          <li>Enforced exclusive access to memory.</li>
+      </p>
+    </section>
+
+  </main>
+  <!-- TODO to show test module, remove when finished-->
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+</html>
