@@ -1,0 +1,47 @@
+#doc-header {
+  text-align: center;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: #f1f1f1;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+}
+
+.nav-link, .nav-header {
+  margin: 10%;
+  text-decoration: none;
+}
+
+body {
+    margin: 0;
+}
+
+section {
+  margin-left:25%;
+}
+
+@media (min-width:1025px) {
+  #navbar {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      text-align: left;
+      margin: 0;
+      padding: 0;
+      width: 25%;
+      background-color: #f1f1f1;
+      height: 100%; /* Full height */
+      position: fixed; /* Make it stick, even on scroll */
+      overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  }
+
+ }
